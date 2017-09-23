@@ -24,7 +24,7 @@ GameObject:
   - component: {fileID: 114086831404756868}
   - component: {fileID: 50551672592962518}
   m_Layer: 10
-  m_Name: Book
+  m_Name: Coin
   m_TagString: Book
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -79,7 +79,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 4, y: 4}
+    oldSize: {x: 2.23, y: 2.26}
     newSize: {x: 4, y: 4}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -132,7 +132,7 @@ SpriteRenderer:
   m_SortingLayerID: -1723799869
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 36e06907fda61a9428d4f82b041c905e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 771c45a7e2acb4e419d1f57cad5c5d62, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

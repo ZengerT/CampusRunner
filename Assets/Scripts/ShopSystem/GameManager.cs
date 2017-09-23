@@ -18,9 +18,6 @@ public class GameManager : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 
-		// Makes the first GameManager persistent, destroy duplicates
-			DontDestroyOnLoad (this.gameObject);
-		
         // Loads the Users Currency and updates the Ui
         Load();
         UpdateCurrency();
@@ -146,6 +143,8 @@ public class GameManager : MonoBehaviour {
     public void RemoveEnergy(int amount)
     {
         energys -= amount;
+        // Save the Use of Energy Drinks
+        UpdateCurrency();
     }
 
     // Checks if the Coins can be removed

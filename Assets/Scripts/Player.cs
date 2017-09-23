@@ -5,14 +5,10 @@ using UnityEngine.UI;
 
 public class Player : MonoBehaviour {
 
-    public Text bookText;
-    private int bookCounter = 0;
+    public GameManager manager;
 
 	// Use this for initialization
 	void Start () {
-        // lade bookCounter
-        bookCounter = PlayerPrefs.GetInt("CampusRunnerItemCount");
-        bookText.text = "Score: " + bookCounter.ToString();
 	}
 	
 	// Update is called once per frame
@@ -22,14 +18,11 @@ public class Player : MonoBehaviour {
 
     void OnTriggerEnter2D(Collider2D other) {
         if (other.tag == "Book") {
-            bookCounter++;
+            manager.AddCoins(1);
+
             // Destroy(other.gameObject);
             other.gameObject.SetActive(false);
-
-            bookText.text = "Score: " + bookCounter.ToString();
-
-            // Anzahl speichern
-            PlayerPrefs.SetInt("CampusRunnerItemCount", bookCounter);
+            manager.UpdateCurrency();
         }
     }
 }

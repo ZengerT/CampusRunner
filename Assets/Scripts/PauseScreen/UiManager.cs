@@ -22,12 +22,14 @@ public class UiManager : MonoBehaviour {
     public Text cashText;
     public Text cashShopText;
     public Text coinText;
+    public Text coinScoreText;
 
     public GameManager manager;
 
 	// Use this for initialization
 	void Start () {
 
+          
         // Declares the pause and shop Objects
         pauseObjects = GameObject.FindGameObjectsWithTag("ShowOnPause");
         shopObjects = GameObject.FindGameObjectsWithTag("ShowOnShop");
@@ -49,7 +51,10 @@ public class UiManager : MonoBehaviour {
         Button cbtn = cashButton.GetComponent<Button>();
         cbtn.onClick.AddListener(OpenCashShop);
     }
-
+    void Awake()
+    {
+        FindObjectOfType(typeof(Text));
+    }
     // Shows the Pause Menu
     void showPause()
     {
@@ -144,7 +149,6 @@ public class UiManager : MonoBehaviour {
     {
         showShop();
         hidePause();
-        manager.UpdateCurrency();
     }
 
     // Closes the Shop and Opens the Pause Menu
@@ -152,7 +156,6 @@ public class UiManager : MonoBehaviour {
     {
         showPause();
         hideShop();
-        manager.UpdateCurrency();
     }
 
     // Opens the Cash Shop
@@ -160,7 +163,6 @@ public class UiManager : MonoBehaviour {
     {
         hideShop();
         showCashShop();
-        manager.UpdateCurrency();
     }
 
     //Closes the Cash Shop
@@ -168,14 +170,17 @@ public class UiManager : MonoBehaviour {
     {
         hideCashShop();
         showShop();
-        manager.UpdateCurrency();
     }
 
     // Updates the Currency Text in the Ui
     public void UpdateCurrencyText(int cash, int coin, int energy)
     {
+
         cashText.text = cash.ToString();
         coinText.text = coin.ToString();
         cashShopText.text = cash.ToString();
+        coinScoreText.text = coin.ToString();
+
     }
+
 }
