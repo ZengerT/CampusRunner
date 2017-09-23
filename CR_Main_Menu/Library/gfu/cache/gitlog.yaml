@@ -12,39 +12,33 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   log:
-  - CommitID: 3fcf99cfc24e9ed0ae732036fb1250244d111dee
+  - CommitID: d3871a545a09739214e411b86804460c7c983c9a
     MergeA: 
     MergeB: 
     AuthorName: Thomas Zenger
     AuthorEmail: mail@thomas-zenger.de
     CommitEmail: mail@thomas-zenger.de
     CommitName: Thomas Zenger
-    Summary: Initial
-    Description: Initial
-    TimeString: 9/19/2017 2:15:29 AM +02:00
-    CommitTimeString: 9/19/2017 2:15:29 AM +02:00
-    Changes:
-    - Path: README.md
-      FullPath: C:\Users\Crimson\software development\Campus_Runner\README.md
-      ProjectPath: ..\README.md
-      OriginalPath: 
-      Status: 3
-      Staged: 0
-  - CommitID: 7289ec8e2d509723cfe994274885829b31b7e774
-    MergeA: 
-    MergeB: 
-    AuthorName: ZengerT
-    AuthorEmail: mail@thomas-zenger.de
-    CommitEmail: noreply@github.com
-    CommitName: GitHub
     Summary: Initial commit
     Description: Initial commit
-    TimeString: 9/19/2017 2:00:03 AM +02:00
-    CommitTimeString: 9/19/2017 2:00:03 AM +02:00
+    TimeString: 9/23/2017 10:11:15 PM +02:00
+    CommitTimeString: 9/23/2017 10:11:15 PM +02:00
     Changes:
-    - Path: README.md
-      FullPath: C:\Users\Crimson\software development\Campus_Runner\README.md
-      ProjectPath: ..\README.md
+    - Path: .gitattributes
+      FullPath: C:\Users\Crimson\software development\CampusRunner\.gitattributes
+      ProjectPath: .gitattributes
+      OriginalPath: 
+      Status: 4
+      Staged: 0
+    - Path: .gitignore
+      FullPath: C:\Users\Crimson\software development\CampusRunner\.gitignore
+      ProjectPath: .gitignore
+      OriginalPath: 
+      Status: 4
+      Staged: 0
+    - Path: Assets\.gitignore
+      FullPath: C:\Users\Crimson\software development\CampusRunner\Assets\.gitignore
+      ProjectPath: Assets\.gitignore
       OriginalPath: 
       Status: 4
       Staged: 0

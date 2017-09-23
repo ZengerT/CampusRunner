@@ -4,9 +4,21 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - MainPanel
+  - Collector
+  - GameObject
+  - Book
   - LevelPanel
+  - MainPanel
   - OptionsPanel
+  - ShowOnCash
+  - ShowOnShop
+  - ShowOnPause
+  - HideOnPause
+  - Lvl1
+  - Lvl2
+  - Lvl3
+  - Lvl4
+  - Lvl5
   layers:
   - Default
   - TransparentFX
@@ -16,9 +28,9 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
+  - Player
+  - Menu
+  - Object
   - 
   - 
   - 
@@ -43,4 +55,13 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Object
+    uniqueID: 2571167427
+    locked: 0
+  - name: Player
+    uniqueID: 2598585009
+    locked: 0
+  - name: Menu
+    uniqueID: 811527963
     locked: 0
