@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class HighscoreManager : MonoBehaviour {
 
@@ -17,4 +18,11 @@ public class HighscoreManager : MonoBehaviour {
         fourthLevelText.text = PlayerPrefs.GetFloat("CampusRunnerHighScoreFourthLevel").ToString("0.000") + " s";
         fifthLevelText.text = PlayerPrefs.GetFloat("CampusRunnerHighScoreFifthLevel").ToString("0.000") + " s";
     }
+
+	public void openMainMenu() {
+		// Loads the Main Menu Scene
+		SceneManager.LoadScene("Main_Menu");
+	}
+
+
 }
