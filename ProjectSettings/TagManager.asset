@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Collector
+  - GameObject
+  - LevelPanel
+  - MainPanel
+  - OptionsPanel
+  - ShowOnCash
+  - ShowOnShop
+  - ShowOnPause
+  - HideOnPause
+  - Coin
+  - Book
+  - ShopPanel
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Player
+  - Menu
+  - Object
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Object
+    uniqueID: 2571167427
+    locked: 0
+  - name: Player
+    uniqueID: 2598585009
+    locked: 0
+  - name: Menu
+    uniqueID: 811527963
+    locked: 0
