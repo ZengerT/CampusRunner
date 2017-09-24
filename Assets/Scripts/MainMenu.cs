@@ -22,6 +22,7 @@ public class MainMenu : MonoBehaviour
     // Use this for initialization
     void Start()
     {
+        //PlayerPrefs.DeleteAll();
 
         mainPanel = GameObject.FindGameObjectWithTag("MainPanel");
         lvlPanel = GameObject.FindGameObjectWithTag("LevelPanel");
@@ -161,24 +162,34 @@ public class MainMenu : MonoBehaviour
 
         if (PlayerPrefs.GetFloat("CampusRunnerHighScoreFirstLevel") > 10.00)
         {
+
             toCheck[1] = true;
 
         }
 
+
+
         if (PlayerPrefs.GetFloat("CampusRunnerHighScoreSecondLevel") > 10.00)
         {
+
             toCheck[2] = true;
 
         }
 
+
+
         if (PlayerPrefs.GetFloat("CampusRunnerHighScoreThirdLevel") > 10.00)
         {
+
             toCheck[3] = true;
 
         }
 
+
+
         if (PlayerPrefs.GetFloat("CampusRunnerHighScoreFourthLevel") > 10.00)
         {
+
             toCheck[4] = true;
         }
 
