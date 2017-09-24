@@ -1,2 +1,0 @@
-# CampusRunner
-Initial
