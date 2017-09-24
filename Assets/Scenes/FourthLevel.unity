@@ -42,11 +42,7 @@ RenderSettings:
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
-<<<<<<< HEAD
-  serializedVersion: 11
-=======
   serializedVersion: 9
->>>>>>> Verena
   m_GIWorkflowMode: 1
   m_GISettings:
     serializedVersion: 2
@@ -58,11 +54,7 @@ LightmapSettings:
     m_EnableBakedLightmaps: 0
     m_EnableRealtimeLightmaps: 0
   m_LightmapEditorSettings:
-<<<<<<< HEAD
-    serializedVersion: 9
-=======
     serializedVersion: 8
->>>>>>> Verena
     m_Resolution: 2
     m_BakeResolution: 40
     m_TextureWidth: 1024
@@ -95,11 +87,7 @@ LightmapSettings:
     m_PVRFilteringAtrousNormalSigma: 1
     m_PVRFilteringAtrousPositionSigma: 1
   m_LightingDataAsset: {fileID: 0}
-<<<<<<< HEAD
-  m_UseShadowmask: 1
-=======
   m_ShadowMaskMode: 2
->>>>>>> Verena
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -423,8 +411,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 132100865}
-<<<<<<< HEAD
-=======
 --- !u!1 &134375287
 GameObject:
   m_ObjectHideFlags: 0
@@ -480,6 +466,7 @@ MonoBehaviour:
   localHighscoreButton: {fileID: 470977354}
   globalHighscoreButton: {fileID: 1334153710}
   ui: {fileID: 616609648}
+  levelManager: {fileID: 0}
 --- !u!114 &134375290
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -513,7 +500,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 134375287}
->>>>>>> Verena
 --- !u!1 &143601419
 GameObject:
   m_ObjectHideFlags: 0
@@ -781,10 +767,7 @@ GameObject:
   - component: {fileID: 248774643}
   - component: {fileID: 248774642}
   - component: {fileID: 248774641}
-<<<<<<< HEAD
-=======
   - component: {fileID: 248774646}
->>>>>>> Verena
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -862,8 +845,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-<<<<<<< HEAD
-=======
 --- !u!114 &248774646
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -875,7 +856,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5120d18c964715649abe368d71dcb675, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
->>>>>>> Verena
 --- !u!1 &274350756
 GameObject:
   m_ObjectHideFlags: 0
@@ -1489,10 +1469,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 0
-<<<<<<< HEAD
-  m_MaskInteraction: 0
-=======
->>>>>>> Verena
 --- !u!4 &426988822
 Transform:
   m_ObjectHideFlags: 1
@@ -1722,8 +1698,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 470825963}
-<<<<<<< HEAD
-=======
 --- !u!1 &470977352
 GameObject:
   m_ObjectHideFlags: 0
@@ -1835,7 +1809,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 470977352}
->>>>>>> Verena
 --- !u!1 &532761365
 GameObject:
   m_ObjectHideFlags: 0
@@ -1910,8 +1883,6 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: 000000000
-<<<<<<< HEAD
-=======
 --- !u!1 &560422391
 GameObject:
   m_ObjectHideFlags: 0
@@ -2060,7 +2031,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 606166176}
->>>>>>> Verena
 --- !u!1 &616609647
 GameObject:
   m_ObjectHideFlags: 0
@@ -2093,11 +2063,8 @@ MonoBehaviour:
   cashText: {fileID: 532761368}
   cashShopText: {fileID: 1750901059}
   coinText: {fileID: 1085797378}
-<<<<<<< HEAD
   coinScoreText: {fileID: 1531425113}
-=======
-  highscoreText: {fileID: 0}
->>>>>>> Verena
+  highscoreText: {fileID: 744606385}
   manager: {fileID: 929556896}
 --- !u!4 &616609649
 Transform:
@@ -2668,8 +2635,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 726128200}
-<<<<<<< HEAD
-=======
 --- !u!1 &744606383
 GameObject:
   m_ObjectHideFlags: 0
@@ -2744,7 +2709,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 744606383}
->>>>>>> Verena
 --- !u!1 &758465595
 GameObject:
   m_ObjectHideFlags: 0
@@ -2976,12 +2940,10 @@ MonoBehaviour:
   retryButton: {fileID: 419002915}
   shopButton: {fileID: 1241652111}
   closeButton: {fileID: 1729200837}
-<<<<<<< HEAD
-=======
   localHighscoreButton: {fileID: 0}
   globalHighscoreButton: {fileID: 0}
->>>>>>> Verena
   ui: {fileID: 616609648}
+  levelManager: {fileID: 0}
 --- !u!114 &806937201
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3477,10 +3439,7 @@ RectTransform:
   - {fileID: 808574612}
   - {fileID: 1654744893}
   - {fileID: 806937199}
-<<<<<<< HEAD
-=======
   - {fileID: 134375288}
->>>>>>> Verena
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4082,8 +4041,6 @@ MonoBehaviour:
   cooldownTimer: {fileID: 659392763}
   manager: {fileID: 929556896}
   currentCooldown: 10
-<<<<<<< HEAD
-=======
 --- !u!1 &1052212869
 GameObject:
   m_ObjectHideFlags: 0
@@ -4194,7 +4151,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1052212869}
->>>>>>> Verena
 --- !u!1 &1085797377
 GameObject:
   m_ObjectHideFlags: 0
@@ -4784,27 +4740,6 @@ CanvasRenderer:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-<<<<<<< HEAD
-  m_GameObject: {fileID: 1331922592}
---- !u!224 &1331922595
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1331922592}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 954589418}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 99}
-  m_SizeDelta: {x: 140, y: 40}
-  m_Pivot: {x: 0.5, y: 0.5}
-=======
   m_GameObject: {fileID: 1331922592}
 --- !u!224 &1331922595
 RectTransform:
@@ -4946,7 +4881,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1334153708}
->>>>>>> Verena
 --- !u!1 &1347087938
 GameObject:
   m_ObjectHideFlags: 0
@@ -5093,8 +5027,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1373811569}
-<<<<<<< HEAD
-=======
 --- !u!1 &1376653614
 GameObject:
   m_ObjectHideFlags: 0
@@ -5169,7 +5101,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1376653614}
->>>>>>> Verena
 --- !u!1 &1438925184
 GameObject:
   m_ObjectHideFlags: 0
@@ -5458,11 +5389,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-<<<<<<< HEAD
-  m_AnchoredPosition: {x: 75, y: -13.2}
-=======
   m_AnchoredPosition: {x: 75, y: -13.200012}
->>>>>>> Verena
   m_SizeDelta: {x: 181.9, y: 48.6}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1531425113
@@ -5610,13 +5537,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 0.5}
-<<<<<<< HEAD
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-=======
   m_AnchoredPosition: {x: 0, y: 127}
   m_SizeDelta: {x: 0, y: 253}
->>>>>>> Verena
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1564908877
 MonoBehaviour:
@@ -5703,8 +5625,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1564908875}
-<<<<<<< HEAD
-=======
 --- !u!1 &1566478926
 GameObject:
   m_ObjectHideFlags: 0
@@ -5815,7 +5735,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1566478926}
->>>>>>> Verena
 --- !u!1 &1601378977
 GameObject:
   m_ObjectHideFlags: 0
@@ -7020,8 +6939,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1806595345}
-<<<<<<< HEAD
-=======
 --- !u!1 &1893737943
 GameObject:
   m_ObjectHideFlags: 0
@@ -7096,7 +7013,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1893737943}
->>>>>>> Verena
 --- !u!1 &1946052368
 GameObject:
   m_ObjectHideFlags: 0
@@ -7342,10 +7258,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 0
-<<<<<<< HEAD
-  m_MaskInteraction: 0
-=======
->>>>>>> Verena
 --- !u!4 &2109421108
 Transform:
   m_ObjectHideFlags: 1

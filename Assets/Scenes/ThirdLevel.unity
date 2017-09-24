@@ -42,11 +42,7 @@ RenderSettings:
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
-<<<<<<< HEAD
-  serializedVersion: 11
-=======
   serializedVersion: 9
->>>>>>> Verena
   m_GIWorkflowMode: 1
   m_GISettings:
     serializedVersion: 2
@@ -58,11 +54,7 @@ LightmapSettings:
     m_EnableBakedLightmaps: 0
     m_EnableRealtimeLightmaps: 0
   m_LightmapEditorSettings:
-<<<<<<< HEAD
-    serializedVersion: 9
-=======
     serializedVersion: 8
->>>>>>> Verena
     m_Resolution: 2
     m_BakeResolution: 40
     m_TextureWidth: 1024
@@ -95,11 +87,7 @@ LightmapSettings:
     m_PVRFilteringAtrousNormalSigma: 1
     m_PVRFilteringAtrousPositionSigma: 1
   m_LightingDataAsset: {fileID: 0}
-<<<<<<< HEAD
-  m_UseShadowmask: 1
-=======
   m_ShadowMaskMode: 2
->>>>>>> Verena
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -194,8 +182,6 @@ RectTransform:
   m_AnchoredPosition: {x: -23, y: -94.5}
   m_SizeDelta: {x: 22, y: 29}
   m_Pivot: {x: 0.5, y: 0.5}
-<<<<<<< HEAD
-=======
 --- !u!1 &20153479
 GameObject:
   m_ObjectHideFlags: 0
@@ -380,7 +366,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 42487794}
->>>>>>> Verena
 --- !u!1 &45919429
 GameObject:
   m_ObjectHideFlags: 0
@@ -714,7 +699,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90210314767e504478b5d36edd39e359, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelName: SecondLevel
+  levelName: ThirdLevel
   timerText: {fileID: 283911306}
   roundTimer: 0
   highscoreText: {fileID: 91722669}
@@ -870,8 +855,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 144689831}
-<<<<<<< HEAD
-=======
 --- !u!1 &169106555
 GameObject:
   m_ObjectHideFlags: 0
@@ -946,7 +929,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 169106555}
->>>>>>> Verena
 --- !u!1 &185070030
 GameObject:
   m_ObjectHideFlags: 0
@@ -999,12 +981,10 @@ MonoBehaviour:
   retryButton: {fileID: 2069817243}
   shopButton: {fileID: 974210827}
   closeButton: {fileID: 1563165423}
-<<<<<<< HEAD
-=======
   localHighscoreButton: {fileID: 1719047269}
   globalHighscoreButton: {fileID: 732751927}
->>>>>>> Verena
   ui: {fileID: 789629889}
+  levelManager: {fileID: 0}
 --- !u!114 &185070033
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1347,10 +1327,7 @@ GameObject:
   - component: {fileID: 248774643}
   - component: {fileID: 248774642}
   - component: {fileID: 248774641}
-<<<<<<< HEAD
-=======
   - component: {fileID: 248774646}
->>>>>>> Verena
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1428,8 +1405,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-<<<<<<< HEAD
-=======
 --- !u!114 &248774646
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1441,7 +1416,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5120d18c964715649abe368d71dcb675, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
->>>>>>> Verena
 --- !u!1 &283911304
 GameObject:
   m_ObjectHideFlags: 0
@@ -1703,8 +1677,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 317692145}
-<<<<<<< HEAD
-=======
 --- !u!1 &317844836
 GameObject:
   m_ObjectHideFlags: 0
@@ -1760,6 +1732,7 @@ MonoBehaviour:
   localHighscoreButton: {fileID: 1719047269}
   globalHighscoreButton: {fileID: 732751927}
   ui: {fileID: 789629889}
+  levelManager: {fileID: 0}
 --- !u!114 &317844839
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1793,7 +1766,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 317844836}
->>>>>>> Verena
 --- !u!1 &331537142
 GameObject:
   m_ObjectHideFlags: 0
@@ -1994,10 +1966,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 0
-<<<<<<< HEAD
-  m_MaskInteraction: 0
-=======
->>>>>>> Verena
 --- !u!4 &426988822
 Transform:
   m_ObjectHideFlags: 1
@@ -2197,12 +2165,6 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-<<<<<<< HEAD
-  m_AnchoredPosition: {x: 0, y: 99}
-  m_SizeDelta: {x: 140, y: 40}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!1 &730925251
-=======
   m_AnchoredPosition: {x: 0, y: 99}
   m_SizeDelta: {x: 140, y: 40}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -2321,36 +2283,23 @@ RectTransform:
   m_SizeDelta: {x: 227, y: 275}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &732751925
->>>>>>> Verena
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 5
   m_Component:
-<<<<<<< HEAD
-  - component: {fileID: 730925255}
-  - component: {fileID: 730925254}
-  - component: {fileID: 730925253}
-  - component: {fileID: 730925252}
-  m_Layer: 5
-  m_Name: Shop Frame - Coins
-=======
   - component: {fileID: 732751926}
   - component: {fileID: 732751929}
   - component: {fileID: 732751928}
   - component: {fileID: 732751927}
   m_Layer: 9
   m_Name: GlobalHighscoreBtn
->>>>>>> Verena
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-<<<<<<< HEAD
---- !u!114 &730925252
-=======
 --- !u!224 &732751926
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2371,16 +2320,11 @@ RectTransform:
   m_SizeDelta: {x: 324, y: 54}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &732751927
->>>>>>> Verena
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-<<<<<<< HEAD
-  m_GameObject: {fileID: 730925251}
-=======
   m_GameObject: {fileID: 732751925}
->>>>>>> Verena
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
@@ -2394,11 +2338,7 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-<<<<<<< HEAD
-    m_NormalColor: {r: 0.3803922, g: 0.3803922, b: 0.3803922, a: 1}
-=======
     m_NormalColor: {r: 0.37254903, g: 0.37254903, b: 0.37254903, a: 1}
->>>>>>> Verena
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
@@ -2414,15 +2354,6 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-<<<<<<< HEAD
-  m_TargetGraphic: {fileID: 730925253}
-  m_OnClick:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
-      Culture=neutral, PublicKeyToken=null
---- !u!114 &730925253
-=======
   m_TargetGraphic: {fileID: 732751928}
   m_OnClick:
     m_PersistentCalls:
@@ -2441,16 +2372,11 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &732751928
->>>>>>> Verena
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-<<<<<<< HEAD
-  m_GameObject: {fileID: 730925251}
-=======
   m_GameObject: {fileID: 732751925}
->>>>>>> Verena
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
@@ -2464,55 +2390,20 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-<<<<<<< HEAD
-  m_Sprite: {fileID: 21300000, guid: 5879dabef64646343b5ef355d611afc5, type: 3}
-  m_Type: 0
-=======
   m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
   m_Type: 1
->>>>>>> Verena
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
-<<<<<<< HEAD
---- !u!222 &730925254
-=======
 --- !u!222 &732751929
->>>>>>> Verena
 CanvasRenderer:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-<<<<<<< HEAD
-  m_GameObject: {fileID: 730925251}
---- !u!224 &730925255
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 730925251}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 12625902}
-  - {fileID: 1445764572}
-  - {fileID: 1321933890}
-  - {fileID: 2026363454}
-  m_Father: {fileID: 53018537}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -241.5, y: -17}
-  m_SizeDelta: {x: 227, y: 275}
-  m_Pivot: {x: 0.5, y: 0.5}
-=======
   m_GameObject: {fileID: 732751925}
->>>>>>> Verena
 --- !u!1 &750907668
 GameObject:
   m_ObjectHideFlags: 0
@@ -2793,11 +2684,8 @@ MonoBehaviour:
   cashText: {fileID: 1779552390}
   cashShopText: {fileID: 191042684}
   coinText: {fileID: 794896050}
-<<<<<<< HEAD
   coinScoreText: {fileID: 1531425113}
-=======
-  highscoreText: {fileID: 0}
->>>>>>> Verena
+  highscoreText: {fileID: 20153481}
   manager: {fileID: 245610600}
 --- !u!4 &789629890
 Transform:
@@ -2962,8 +2850,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 816365771}
-<<<<<<< HEAD
-=======
 --- !u!1 &828787671
 GameObject:
   m_ObjectHideFlags: 0
@@ -3038,7 +2924,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 828787671}
->>>>>>> Verena
 --- !u!1 &872955637
 GameObject:
   m_ObjectHideFlags: 0
@@ -3245,10 +3130,7 @@ RectTransform:
   - {fileID: 1773469219}
   - {fileID: 1648424631}
   - {fileID: 185070031}
-<<<<<<< HEAD
-=======
   - {fileID: 317844837}
->>>>>>> Verena
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4468,15 +4350,6 @@ GameObject:
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 5
   m_Component:
-<<<<<<< HEAD
-  - component: {fileID: 1229145719}
-  - component: {fileID: 1229145722}
-  - component: {fileID: 1229145721}
-  - component: {fileID: 1229145720}
-  m_Layer: 5
-  m_Name: Exit Shop
-  m_TagString: Untagged
-=======
   - component: {fileID: 1229145719}
   - component: {fileID: 1229145722}
   - component: {fileID: 1229145721}
@@ -4605,36 +4478,15 @@ GameObject:
   m_Layer: 9
   m_Name: Close
   m_TagString: ShowOnFinish
->>>>>>> Verena
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-<<<<<<< HEAD
---- !u!224 &1229145719
-=======
 --- !u!224 &1319762771
->>>>>>> Verena
 RectTransform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-<<<<<<< HEAD
-  m_GameObject: {fileID: 1229145718}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1519408124}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -308, y: -2}
-  m_SizeDelta: {x: 75, y: 56}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1229145720
-=======
   m_GameObject: {fileID: 1319762770}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -4649,16 +4501,11 @@ RectTransform:
   m_SizeDelta: {x: -120, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1319762772
->>>>>>> Verena
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-<<<<<<< HEAD
-  m_GameObject: {fileID: 1229145718}
-=======
   m_GameObject: {fileID: 1319762770}
->>>>>>> Verena
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 1392445389, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
@@ -4688,26 +4535,6 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-<<<<<<< HEAD
-  m_TargetGraphic: {fileID: 1229145721}
-  m_OnClick:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: 
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
-      Culture=neutral, PublicKeyToken=null
---- !u!114 &1229145721
-=======
   m_TargetGraphic: {fileID: 1319762773}
   m_OnClick:
     m_PersistentCalls:
@@ -4715,16 +4542,11 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1319762773
->>>>>>> Verena
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-<<<<<<< HEAD
-  m_GameObject: {fileID: 1229145718}
-=======
   m_GameObject: {fileID: 1319762770}
->>>>>>> Verena
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -765806418, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
@@ -4738,11 +4560,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-<<<<<<< HEAD
-  m_Sprite: {fileID: 21300000, guid: 3dd5572f3eff46444a2ef9f98aed06dc, type: 3}
-=======
   m_Sprite: {fileID: 21300000, guid: adf7612bd7e22e646a918cab10979586, type: 3}
->>>>>>> Verena
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4750,20 +4568,12 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
-<<<<<<< HEAD
---- !u!222 &1229145722
-=======
 --- !u!222 &1319762774
->>>>>>> Verena
 CanvasRenderer:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-<<<<<<< HEAD
-  m_GameObject: {fileID: 1229145718}
-=======
   m_GameObject: {fileID: 1319762770}
->>>>>>> Verena
 --- !u!1 &1321933887
 GameObject:
   m_ObjectHideFlags: 0
@@ -5102,8 +4912,6 @@ RectTransform:
   m_AnchoredPosition: {x: -38, y: 0}
   m_SizeDelta: {x: 36, y: 36}
   m_Pivot: {x: 0.5, y: 0.5}
-<<<<<<< HEAD
-=======
 --- !u!1 &1380372225
 GameObject:
   m_ObjectHideFlags: 0
@@ -5252,7 +5060,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1404357966}
->>>>>>> Verena
 --- !u!1 &1415158677
 GameObject:
   m_ObjectHideFlags: 0
@@ -5601,11 +5408,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-<<<<<<< HEAD
-  m_AnchoredPosition: {x: 75, y: -13.2}
-=======
   m_AnchoredPosition: {x: 75, y: -13.200012}
->>>>>>> Verena
   m_SizeDelta: {x: 181.9, y: 48.6}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1531425113
@@ -5790,13 +5593,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 0.5}
-<<<<<<< HEAD
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-=======
   m_AnchoredPosition: {x: 0, y: 118}
   m_SizeDelta: {x: 0, y: 236}
->>>>>>> Verena
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1564908877
 MonoBehaviour:
@@ -6251,8 +6049,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-<<<<<<< HEAD
-=======
 --- !u!1 &1719047267
 GameObject:
   m_ObjectHideFlags: 0
@@ -6364,7 +6160,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1719047267}
->>>>>>> Verena
 --- !u!1 &1756170859
 GameObject:
   m_ObjectHideFlags: 0
@@ -7313,10 +7108,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 0
-<<<<<<< HEAD
-  m_MaskInteraction: 0
-=======
->>>>>>> Verena
 --- !u!4 &2109421108
 Transform:
   m_ObjectHideFlags: 1
