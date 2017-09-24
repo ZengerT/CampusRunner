@@ -17,6 +17,7 @@ public class ButtonManager : MonoBehaviour {
 	public Button globalHighscoreButton;
 
     public UiManager ui;
+    public LevelManager levelManager;
 
 	// Use this for initialization
 	void Start () {
@@ -43,6 +44,9 @@ public class ButtonManager : MonoBehaviour {
 		// global highscore Button
 		Button ghbtn = globalHighscoreButton.GetComponent<Button>();
 		ghbtn.onClick.AddListener(GlobalHighscoreOnClick);
+
+        // LevelManager laden
+        levelManager = FindObjectOfType<LevelManager>();
     }
 	
     // Continue Button Function
@@ -55,6 +59,10 @@ public class ButtonManager : MonoBehaviour {
     // Retry Button Function
     void RetryOnClick()
     {
+        if (levelManager.highscore > PlayerPrefs.GetFloat("CampusRunnerHighScore" + levelManager.levelName)) {
+            PlayerPrefs.SetFloat("CampusRunnerHighScore" + levelManager.levelName, levelManager.highscore);
+        }
+
         // Reloads the GameScene
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
@@ -69,6 +77,10 @@ public class ButtonManager : MonoBehaviour {
     // Close Button Function
     void CloseOnClick()
     {
+        if (levelManager.highscore > PlayerPrefs.GetFloat("CampusRunnerHighScore" + levelManager.levelName)) {
+            PlayerPrefs.SetFloat("CampusRunnerHighScore" + levelManager.levelName, levelManager.highscore);
+        }
+
         // Loads the Meain Menu Scene
         SceneManager.LoadScene("Main_Menu");
     }

@@ -6,12 +6,25 @@ public class PlayerMovement : MonoBehaviour {
 
 	public float jumpForce = 5f;
 	public float forwardForce = 0f;
+    public float playerSpeed = 10f;
+
+    public GameObject player;
+
+    public AudioClip jumpSound; 
+
+
 
 	private Rigidbody2D myRB;
 	private bool canJump;
+    private AudioSource source;
 
-	// Use this for initialization
-	void Start () {
+    private void Awake()
+    {
+        source = GetComponent<AudioSource>();
+    }
+
+    // Use this for initialization
+    void Start () {
 		myRB = GetComponent<Rigidbody2D> ();
 	}
 
@@ -42,4 +55,18 @@ public class PlayerMovement : MonoBehaviour {
 	{
 		canJump = true;
 	}
+
+
+    private void Update()
+    {
+
+        if (Input.GetButtonDown("Jump"))
+        {
+            source.PlayOneShot(jumpSound, 1);
+            Debug.Log("Jump");
+        }
+
+    }
+
+   
 }

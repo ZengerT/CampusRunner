@@ -7,6 +7,8 @@ using UnityEngine.Audio;
 
 public class MainMenu : MonoBehaviour {
 
+
+
     //public variables
     public GameObject mainPanel;
     public GameObject lvlPanel;
@@ -109,6 +111,7 @@ public class MainMenu : MonoBehaviour {
     public void Level1 ()
     {
         SceneManager.LoadScene("FirstLevel");
+        
     }
 
     public void Level2()

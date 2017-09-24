@@ -7,10 +7,16 @@ public class ObstacleSpawner : MonoBehaviour {
 	public GameObject[] obstacles;
 	public List<GameObject> obstaclesToSpawn = new List<GameObject> ();
 
+
+    public float minTimeForObstacletoSpawn = 1.5f;
+    public float maxTimeForObstacletoSpawn = 4.5f;
+
 	int index;
+    private Rigidbody2D myRB; 
 
 	void Awake() {
 		InitObstacles ();
+      
 	}
 
 	// Use this for initialization
@@ -18,7 +24,9 @@ public class ObstacleSpawner : MonoBehaviour {
 		StartCoroutine (SpawnRandomObstacle ());
 	}
 
-	void InitObstacles() {
+
+
+    void InitObstacles() {
 		index = 0;
 		// Initialisiere die Hindernisse
 		for (int i = 0; i < obstacles.Length * 3; i++) {
@@ -35,7 +43,7 @@ public class ObstacleSpawner : MonoBehaviour {
 
 	IEnumerator SpawnRandomObstacle() {
 		// Warte eine gewisse Zeit
-		yield return new WaitForSeconds (Random.Range (1.5f, 4.5f));
+		yield return new WaitForSeconds (Random.Range (minTimeForObstacletoSpawn, maxTimeForObstacletoSpawn));
 		// Aktiviere Hindernisse
 		int index = Random.Range(0, obstaclesToSpawn.Count);
 

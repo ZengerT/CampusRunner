@@ -14,7 +14,6 @@ TagManager:
   - ShowOnShop
   - ShowOnPause
   - HideOnPause
-  - ShowOnFinish
   layers:
   - Default
   - TransparentFX

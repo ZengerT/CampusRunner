@@ -57,9 +57,9 @@ public class CashShopScript : MonoBehaviour {
         Button cashbb = cashBundleButton.GetComponent<Button>();
         Button cashsb = cashSafeButton.GetComponent<Button>();
 
-		cashb.onClick.AddListener(purchaser.BuyCash);
-		cashbb.onClick.AddListener(purchaser.BuyCashBundle);
-		cashsb.onClick.AddListener(purchaser.BuyCashSafe);
+		cashb.onClick.AddListener(BuyCash);
+		cashbb.onClick.AddListener(BuyCashBundle);
+		cashsb.onClick.AddListener(BuyCashSafe);
 
         // Inserts the Prices and Values into the Ui
         cashPriceText.text = CASH_PRICE.ToString() + "€";
@@ -73,20 +73,39 @@ public class CashShopScript : MonoBehaviour {
     // User clicks on a Cash Button
     public void BuyCash()
     {
-        manager.AddCash(CASH_RATE);
-        manager.UpdateCurrency();
+        purchaser.BuyCash();
+        // checks if purchase was successfull
+        if (PurchaseManager.purchaseSuccess)
+        {
+           
+            manager.AddCash(CASH_RATE);
+            manager.UpdateCurrency();
+            PurchaseManager.purchaseSuccess = false;
+        }
     }
 
     public void BuyCashBundle()
     {
-        manager.AddCash(CASH_BUNDLE_RATE);
-        manager.UpdateCurrency();
+        purchaser.BuyCashBundle();
+        // checks if purchase was successfull
+        if (PurchaseManager.purchaseSuccess)
+        {        
+            manager.AddCash(CASH_BUNDLE_RATE);
+            manager.UpdateCurrency();
+            PurchaseManager.purchaseSuccess = false;
+        }
     }
 
     public void BuyCashSafe()
     {
-        manager.AddCash(CASH_SAFE_RATE);
-        manager.UpdateCurrency();
+        purchaser.BuyCashSafe();
+        // checks if purchase was successfull
+        if (PurchaseManager.purchaseSuccess)
+        {
+            manager.AddCash(CASH_SAFE_RATE);
+            manager.UpdateCurrency();
+            PurchaseManager.purchaseSuccess = false;
+        }
     }		
 
     // Closes the Shop Ui

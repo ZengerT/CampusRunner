@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Purchasing;
 
-//used: https://unity3d.com/de/learn/tutorials/topics/ads-analytics/integrating-unity-iap-your-game
+// used: https://unity3d.com/de/learn/tutorials/topics/ads-analytics/integrating-unity-iap-your-game
 
+// Cash shop won´t work unless uploaded to the Android Store
 
 // Deriving the Purchaser class from IStoreListener enables it to receive messages from Unity Purchasing.
 public class PurchaseManager : MonoBehaviour, IStoreListener
@@ -16,6 +17,8 @@ public class PurchaseManager : MonoBehaviour, IStoreListener
 	public static string cash =    "cash";   
 	public static string cashBundle = "cashBundle";
 	public static string cashSafe = "cashSafe";
+
+    public static bool purchaseSuccess = false;
 
 	public CashShopScript shop;
 
@@ -138,28 +141,30 @@ public class PurchaseManager : MonoBehaviour, IStoreListener
 		if (String.Equals(args.purchasedProduct.definition.id, cash, StringComparison.Ordinal))
 		{
 			Debug.Log(string.Format("ProcessPurchase: PASS. Product: '{0}'", args.purchasedProduct.definition.id));
-			shop.BuyCash();
+            purchaseSuccess = true;
 
-		}
+        }
 		// Cash Bundle has been purchased by the user
 		else if (String.Equals(args.purchasedProduct.definition.id, cashBundle, StringComparison.Ordinal))
 		{
 			Debug.Log(string.Format("ProcessPurchase: PASS. Product: '{0}'", args.purchasedProduct.definition.id));
-			shop.BuyCashBundle();
+            purchaseSuccess = true;
 
-		}
+        }
 		// Cash Safe has been purchased by the user
 		else if (String.Equals(args.purchasedProduct.definition.id, cashSafe, StringComparison.Ordinal))
 		{
 			Debug.Log(string.Format("ProcessPurchase: PASS. Product: '{0}'", args.purchasedProduct.definition.id));
-			shop.BuyCashSafe();
+            purchaseSuccess = true;
 
-		}
+        }
 		// Or ... an unknown product has been purchased by this user. Fill in additional products here....
 		else 
 		{
 			Debug.Log(string.Format("ProcessPurchase: FAIL. Unrecognized product: '{0}'", args.purchasedProduct.definition.id));
-		}
+            purchaseSuccess = true;
+
+        }
 
 		// Return a flag indicating whether this product has completely been received, or if the application needs 
 		// to be reminded of this purchase at next app launch. Use PurchaseProcessingResult.Pending when still 
