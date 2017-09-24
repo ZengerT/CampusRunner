@@ -13,6 +13,7 @@ public class UiManager : MonoBehaviour {
     GameObject[] cashObjects;
     GameObject[] pauseHiddenObjects;
     GameObject[] books;
+    GameObject[] finishObjects;
 
     // Buttons
     public Button pauseButton;
@@ -23,24 +24,26 @@ public class UiManager : MonoBehaviour {
     public Text cashShopText;
     public Text coinText;
     public Text coinScoreText;
+    public Text highscoreText;
 
     public GameManager manager;
 
 	// Use this for initialization
 	void Start () {
 
-          
         // Declares the pause and shop Objects
         pauseObjects = GameObject.FindGameObjectsWithTag("ShowOnPause");
         shopObjects = GameObject.FindGameObjectsWithTag("ShowOnShop");
         cashObjects = GameObject.FindGameObjectsWithTag("ShowOnCash");
         pauseHiddenObjects = GameObject.FindGameObjectsWithTag("HideOnPause");
         books = GameObject.FindGameObjectsWithTag("Book");
+        finishObjects = GameObject.FindGameObjectsWithTag("ShowOnFinish");
 
         // Start settings
         hidePause();
         hideShop();
         hideCashShop();
+        hideFinished();
         Time.timeScale = 1;
 
         // Pause Button Click Listener
@@ -51,10 +54,12 @@ public class UiManager : MonoBehaviour {
         Button cbtn = cashButton.GetComponent<Button>();
         cbtn.onClick.AddListener(OpenCashShop);
     }
+
     void Awake()
     {
         FindObjectOfType(typeof(Text));
     }
+
     // Shows the Pause Menu
     void showPause()
     {
@@ -66,10 +71,12 @@ public class UiManager : MonoBehaviour {
         {
             element.SetActive(false);
         }
+
         foreach (GameObject element in books)
         {
             element.SetActive(false);
         }
+
     }
 
     // Hides the Pause Menu
@@ -81,6 +88,25 @@ public class UiManager : MonoBehaviour {
         }
     }
 
+    //shows objects with ShowOnFinish tag
+    public void showFinished(float highscore)
+    {
+        highscoreText.text = "Highscore: " + highscore.ToString("0.000 s");
+        foreach (GameObject g in finishObjects)
+        {
+            g.SetActive(true);
+        }
+    }
+
+    //hides objects with ShowOnFinish tag
+    public void hideFinished()
+    {
+        foreach (GameObject g in finishObjects)
+        {
+            g.SetActive(false);
+        }
+    }
+    
     // Shows the shop
     void showShop()
     {
@@ -149,6 +175,7 @@ public class UiManager : MonoBehaviour {
     {
         showShop();
         hidePause();
+        manager.UpdateCurrency();
     }
 
     // Closes the Shop and Opens the Pause Menu
@@ -156,6 +183,7 @@ public class UiManager : MonoBehaviour {
     {
         showPause();
         hideShop();
+        manager.UpdateCurrency();
     }
 
     // Opens the Cash Shop
@@ -163,6 +191,7 @@ public class UiManager : MonoBehaviour {
     {
         hideShop();
         showCashShop();
+        manager.UpdateCurrency();
     }
 
     //Closes the Cash Shop
@@ -170,17 +199,16 @@ public class UiManager : MonoBehaviour {
     {
         hideCashShop();
         showShop();
+        manager.UpdateCurrency();
     }
 
     // Updates the Currency Text in the Ui
     public void UpdateCurrencyText(int cash, int coin, int energy)
     {
-
         cashText.text = cash.ToString();
         coinText.text = coin.ToString();
         cashShopText.text = cash.ToString();
         coinScoreText.text = coin.ToString();
 
     }
-
 }
